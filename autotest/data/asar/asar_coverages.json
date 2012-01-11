@@ -31,8 +31,8 @@
         "model": "coverages.eometadatarecord",
         "fields": {
             "footprint": "POLYGON ((22.301754 -33.039026,20.099457 -32.530560,17.925622 -31.984922,16.727605 -35.166903,18.976948 -35.733683,21.262123 -36.259107,22.301754 -33.039026))",
-            "timestamp_begin": "2005-03-31 07:59:36",
-            "timestamp_end": "2005-03-31 08:00:36",
+            "timestamp_begin": "2005-03-31 07:59:36.409059",
+            "timestamp_end": "2005-03-31 08:00:36.342970",
             "eo_gml": ""
         }
     },
@@ -68,43 +68,6 @@
         "model": "backends.localpath",
         "fields": {
             "path": "../autotest/data/asar/ASA_WSM_1PNDPA20050331_075939_000000552036_00035_16121_0775.N1"
-        }
-    },
-    {
-        "pk": 4, 
-        "model": "coverages.rangetyperecord", 
-        "fields": {
-            "name": "ASAR",
-            "data_type": 2
-        }
-    }, 
-    {
-        "pk": 20, 
-        "model": "coverages.bandrecord", 
-        "fields": {
-            "definition": "http://www.opengis.net/def/property/OGC/0/Amplitude", 
-            "name": "ASAR_Amplitude", 
-            "nil_values": [2], 
-            "identifier": "ASAR_Amplitude", 
-            "uom": "?", 
-            "description": "ASAR Amplitude Band"
-        }
-    }, 
-    {
-        "pk": 2, 
-        "model": "coverages.nilvaluerecord", 
-        "fields": {
-            "reason": "http://www.opengis.net/def/nil/OGC/0/unknown", 
-            "value": 0
-        }
-    },  
-    {
-        "pk": 20, 
-        "model": "coverages.rangetype2band", 
-        "fields": {
-            "range_type": 4, 
-            "band": 20, 
-            "no": 1
         }
     }
 ]

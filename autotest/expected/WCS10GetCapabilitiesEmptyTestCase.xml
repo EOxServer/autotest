@@ -15,7 +15,10 @@
     <keyword>WCS EO-AP</keyword>
     <keyword>WCS 2.0</keyword>
     <keyword>WCS</keyword>
+    <keyword>WMS</keyword>
+    <keyword>EO-WMS</keyword>
     <keyword>MERIS</keyword>
+    <keyword>ASAR</keyword>
     <keyword>Envisat</keyword>
   </keywords>
 <responsibleParty>
@@ -35,7 +38,7 @@
     <country>Austria</country>
     <electronicMailAddress>office@eox.at</electronicMailAddress>
     </address>
-    <onlineResource xlink:type="simple" xlink:href="http://eoxserver.org/ows?"/>
+    <onlineResource xlink:type="simple" xlink:href="http://eoxserver.org"/>
   </contactInfo>
 </responsibleParty>
   <fees>None</fees>

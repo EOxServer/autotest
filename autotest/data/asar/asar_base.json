@@ -3,7 +3,7 @@
         "pk": 4, 
         "model": "coverages.rangetyperecord", 
         "fields": {
-            "name": "ASAR",
+            "name": "ASAR", 
             "data_type": 2
         }
     }, 
@@ -13,18 +13,13 @@
         "fields": {
             "definition": "http://www.opengis.net/def/property/OGC/0/Amplitude", 
             "name": "ASAR_Amplitude", 
-            "nil_values": [2], 
+            "nil_values": [
+                2
+            ], 
+            "gdal_interpretation": 0, 
             "identifier": "ASAR_Amplitude", 
             "uom": "?", 
             "description": "ASAR Amplitude Band"
-        }
-    }, 
-    {
-        "pk": 2, 
-        "model": "coverages.nilvaluerecord", 
-        "fields": {
-            "reason": "http://www.opengis.net/def/nil/OGC/0/unknown", 
-            "value": 0
         }
     }, 
     {

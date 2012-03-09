@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://localhost:8000/" />
 <title>add_remote_data_source_to_dataset_series</title>
 </head>
 <body>
@@ -30,6 +29,11 @@
 	<td>select</td>
 	<td>id=id_storage</td>
 	<td>label=FTPStorage object</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=id_path</td>
+	<td>/test/MER_FRS_1P_reduced</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -92,11 +96,15 @@
 	<td></td>
 </tr>
 <tr>
-	<td>type</td>
-	<td>id=id_path</td>
-	<td>/test/MER_FRS_1P_reduced</td>
+	<td>verifyElementPresent</td>
+	<td>css=li.info</td>
+	<td></td>
 </tr>
-
+<tr>
+	<td>verifyElementNotPresent</td>
+	<td>css=p.errornote</td>
+	<td></td>
+</tr>
 </tbody></table>
 </body>
 </html>

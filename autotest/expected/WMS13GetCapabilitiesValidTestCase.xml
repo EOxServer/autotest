@@ -187,32 +187,6 @@ Copyright (C) European Space Agency - ESA</Abstract>
           </LegendURL>
         </Style>
         <Layer queryable="0" opaque="0" cascaded="0">
-          <Name>MER_FRS_1P_reduced_clouds</Name>
-          <Title>MER_FRS_1P_reduced_clouds</Title>
-          <Abstract>MER_FRS_1P_reduced_clouds</Abstract>
-          <EX_GeographicBoundingBox>
-            <westBoundLongitude>-3.43798</westBoundLongitude>
-            <eastBoundLongitude>27.9686</eastBoundLongitude>
-            <southBoundLatitude>32.2645</southBoundLatitude>
-            <northBoundLatitude>46.2184</northBoundLatitude>
-          </EX_GeographicBoundingBox>
-          <BoundingBox CRS="EPSG:4326" minx="32.2645" miny="-3.43798" maxx="46.2184" maxy="27.9686"/>
-          <Dimension name="time" units="ISO8601" nearestValue="0">2006-08-16T09:09:29Z/2006-08-16T09:12:46Z/PT1S,2006-08-22T09:20:58Z/2006-08-22T09:24:15Z/PT1S,2006-08-30T10:09:49Z/2006-08-30T10:13:06Z/PT1S</Dimension>
-        </Layer>
-        <Layer queryable="0" opaque="0" cascaded="0">
-          <Name>MER_FRS_1P_reduced_bands</Name>
-          <Title>MER_FRS_1P_reduced_bands</Title>
-          <Abstract>MER_FRS_1P_reduced_bands</Abstract>
-          <EX_GeographicBoundingBox>
-            <westBoundLongitude>-3.43798</westBoundLongitude>
-            <eastBoundLongitude>27.9686</eastBoundLongitude>
-            <southBoundLatitude>32.2645</southBoundLatitude>
-            <northBoundLatitude>46.2184</northBoundLatitude>
-          </EX_GeographicBoundingBox>
-          <BoundingBox CRS="EPSG:4326" minx="32.2645" miny="-3.43798" maxx="46.2184" maxy="27.9686"/>
-          <Dimension name="time" units="ISO8601" nearestValue="0">2006-08-16T09:09:29Z/2006-08-16T09:12:46Z/PT1S,2006-08-22T09:20:58Z/2006-08-22T09:24:15Z/PT1S,2006-08-30T10:09:49Z/2006-08-30T10:13:06Z/PT1S</Dimension>
-        </Layer>
-        <Layer queryable="0" opaque="0" cascaded="0">
           <Name>MER_FRS_1P_reduced</Name>
           <Title>MER_FRS_1P_reduced</Title>
           <Abstract>MER_FRS_1P_reduced</Abstract>
@@ -239,6 +213,19 @@ Copyright (C) European Space Agency - ESA</Abstract>
           <Dimension name="time" units="ISO8601" nearestValue="0">2006-08-16T09:09:29Z/2006-08-16T09:12:46Z/PT1S,2006-08-22T09:20:58Z/2006-08-22T09:24:15Z/PT1S,2006-08-30T10:09:49Z/2006-08-30T10:13:06Z/PT1S</Dimension>
         </Layer>
         <Layer queryable="0" opaque="0" cascaded="0">
+          <Name>MER_FRS_1P_reduced_outlines</Name>
+          <Title>MER_FRS_1P_reduced_outlines</Title>
+          <Abstract>MER_FRS_1P_reduced_outlines</Abstract>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-3.43798</westBoundLongitude>
+            <eastBoundLongitude>27.9686</eastBoundLongitude>
+            <southBoundLatitude>32.2645</southBoundLatitude>
+            <northBoundLatitude>46.2184</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="32.2645" miny="-3.43798" maxx="46.2184" maxy="27.9686"/>
+          <Dimension name="time" units="ISO8601" nearestValue="0">2006-08-16T09:09:29Z/2006-08-16T09:12:46Z/PT1S,2006-08-22T09:20:58Z/2006-08-22T09:24:15Z/PT1S,2006-08-30T10:09:49Z/2006-08-30T10:13:06Z/PT1S</Dimension>
+        </Layer>
+        <Layer queryable="0" opaque="0" cascaded="0">
           <Name>MER_FRS_1P_reduced_masked_outlines</Name>
           <Title>MER_FRS_1P_reduced_masked_outlines</Title>
           <Abstract>MER_FRS_1P_reduced_masked_outlines</Abstract>
@@ -252,9 +239,9 @@ Copyright (C) European Space Agency - ESA</Abstract>
           <Dimension name="time" units="ISO8601" nearestValue="0">2006-08-16T09:09:29Z/2006-08-16T09:12:46Z/PT1S,2006-08-22T09:20:58Z/2006-08-22T09:24:15Z/PT1S,2006-08-30T10:09:49Z/2006-08-30T10:13:06Z/PT1S</Dimension>
         </Layer>
         <Layer queryable="0" opaque="0" cascaded="0">
-          <Name>MER_FRS_1P_reduced_outlines</Name>
-          <Title>MER_FRS_1P_reduced_outlines</Title>
-          <Abstract>MER_FRS_1P_reduced_outlines</Abstract>
+          <Name>MER_FRS_1P_reduced_cloud</Name>
+          <Title>MER_FRS_1P_reduced_cloud</Title>
+          <Abstract>MER_FRS_1P_reduced_cloud</Abstract>
           <EX_GeographicBoundingBox>
             <westBoundLongitude>-3.43798</westBoundLongitude>
             <eastBoundLongitude>27.9686</eastBoundLongitude>
@@ -285,32 +272,6 @@ Copyright (C) European Space Agency - ESA</Abstract>
           </LegendURL>
         </Style>
         <Layer queryable="0" opaque="0" cascaded="0">
-          <Name>MER_FRS_1P_reduced_RGB_clouds</Name>
-          <Title>MER_FRS_1P_reduced_RGB_clouds</Title>
-          <Abstract>MER_FRS_1P_reduced_RGB_clouds</Abstract>
-          <EX_GeographicBoundingBox>
-            <westBoundLongitude>-3.43798</westBoundLongitude>
-            <eastBoundLongitude>27.9686</eastBoundLongitude>
-            <southBoundLatitude>32.2645</southBoundLatitude>
-            <northBoundLatitude>46.2184</northBoundLatitude>
-          </EX_GeographicBoundingBox>
-          <BoundingBox CRS="EPSG:4326" minx="32.2645" miny="-3.43798" maxx="46.2184" maxy="27.9686"/>
-          <Dimension name="time" units="ISO8601" nearestValue="0">2006-08-16T09:09:29Z/2006-08-16T09:12:46Z/PT1S,2006-08-22T09:20:58Z/2006-08-22T09:24:15Z/PT1S,2006-08-30T10:09:49Z/2006-08-30T10:13:06Z/PT1S</Dimension>
-        </Layer>
-        <Layer queryable="0" opaque="0" cascaded="0">
-          <Name>MER_FRS_1P_reduced_RGB_bands</Name>
-          <Title>MER_FRS_1P_reduced_RGB_bands</Title>
-          <Abstract>MER_FRS_1P_reduced_RGB_bands</Abstract>
-          <EX_GeographicBoundingBox>
-            <westBoundLongitude>-3.43798</westBoundLongitude>
-            <eastBoundLongitude>27.9686</eastBoundLongitude>
-            <southBoundLatitude>32.2645</southBoundLatitude>
-            <northBoundLatitude>46.2184</northBoundLatitude>
-          </EX_GeographicBoundingBox>
-          <BoundingBox CRS="EPSG:4326" minx="32.2645" miny="-3.43798" maxx="46.2184" maxy="27.9686"/>
-          <Dimension name="time" units="ISO8601" nearestValue="0">2006-08-16T09:09:29Z/2006-08-16T09:12:46Z/PT1S,2006-08-22T09:20:58Z/2006-08-22T09:24:15Z/PT1S,2006-08-30T10:09:49Z/2006-08-30T10:13:06Z/PT1S</Dimension>
-        </Layer>
-        <Layer queryable="0" opaque="0" cascaded="0">
           <Name>MER_FRS_1P_reduced_RGB</Name>
           <Title>MER_FRS_1P_reduced_RGB</Title>
           <Abstract>MER_FRS_1P_reduced_RGB</Abstract>
@@ -337,6 +298,19 @@ Copyright (C) European Space Agency - ESA</Abstract>
           <Dimension name="time" units="ISO8601" nearestValue="0">2006-08-16T09:09:29Z/2006-08-16T09:12:46Z/PT1S,2006-08-22T09:20:58Z/2006-08-22T09:24:15Z/PT1S,2006-08-30T10:09:49Z/2006-08-30T10:13:06Z/PT1S</Dimension>
         </Layer>
         <Layer queryable="0" opaque="0" cascaded="0">
+          <Name>MER_FRS_1P_reduced_RGB_outlines</Name>
+          <Title>MER_FRS_1P_reduced_RGB_outlines</Title>
+          <Abstract>MER_FRS_1P_reduced_RGB_outlines</Abstract>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-3.43798</westBoundLongitude>
+            <eastBoundLongitude>27.9686</eastBoundLongitude>
+            <southBoundLatitude>32.2645</southBoundLatitude>
+            <northBoundLatitude>46.2184</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="32.2645" miny="-3.43798" maxx="46.2184" maxy="27.9686"/>
+          <Dimension name="time" units="ISO8601" nearestValue="0">2006-08-16T09:09:29Z/2006-08-16T09:12:46Z/PT1S,2006-08-22T09:20:58Z/2006-08-22T09:24:15Z/PT1S,2006-08-30T10:09:49Z/2006-08-30T10:13:06Z/PT1S</Dimension>
+        </Layer>
+        <Layer queryable="0" opaque="0" cascaded="0">
           <Name>MER_FRS_1P_reduced_RGB_masked_outlines</Name>
           <Title>MER_FRS_1P_reduced_RGB_masked_outlines</Title>
           <Abstract>MER_FRS_1P_reduced_RGB_masked_outlines</Abstract>
@@ -350,9 +324,9 @@ Copyright (C) European Space Agency - ESA</Abstract>
           <Dimension name="time" units="ISO8601" nearestValue="0">2006-08-16T09:09:29Z/2006-08-16T09:12:46Z/PT1S,2006-08-22T09:20:58Z/2006-08-22T09:24:15Z/PT1S,2006-08-30T10:09:49Z/2006-08-30T10:13:06Z/PT1S</Dimension>
         </Layer>
         <Layer queryable="0" opaque="0" cascaded="0">
-          <Name>MER_FRS_1P_reduced_RGB_outlines</Name>
-          <Title>MER_FRS_1P_reduced_RGB_outlines</Title>
-          <Abstract>MER_FRS_1P_reduced_RGB_outlines</Abstract>
+          <Name>MER_FRS_1P_reduced_RGB_cloud</Name>
+          <Title>MER_FRS_1P_reduced_RGB_cloud</Title>
+          <Abstract>MER_FRS_1P_reduced_RGB_cloud</Abstract>
           <EX_GeographicBoundingBox>
             <westBoundLongitude>-3.43798</westBoundLongitude>
             <eastBoundLongitude>27.9686</eastBoundLongitude>
@@ -383,32 +357,6 @@ Copyright (C) European Space Agency - ESA</Abstract>
           </LegendURL>
         </Style>
         <Layer queryable="0" opaque="0" cascaded="0">
-          <Name>mosaic_MER_FRS_1P_reduced_RGB_clouds</Name>
-          <Title>mosaic_MER_FRS_1P_reduced_RGB_clouds</Title>
-          <Abstract>mosaic_MER_FRS_1P_reduced_RGB_clouds</Abstract>
-          <EX_GeographicBoundingBox>
-            <westBoundLongitude>-3.43798</westBoundLongitude>
-            <eastBoundLongitude>27.9686</eastBoundLongitude>
-            <southBoundLatitude>32.2645</southBoundLatitude>
-            <northBoundLatitude>46.2184</northBoundLatitude>
-          </EX_GeographicBoundingBox>
-          <BoundingBox CRS="EPSG:4326" minx="32.2645" miny="-3.43798" maxx="46.2184" maxy="27.9686"/>
-          <Dimension name="time" units="ISO8601" nearestValue="0">2006-08-16T09:09:29Z/2006-08-16T09:12:46Z/PT1S,2006-08-22T09:20:58Z/2006-08-22T09:24:15Z/PT1S,2006-08-30T10:09:49Z/2006-08-30T10:13:06Z/PT1S</Dimension>
-        </Layer>
-        <Layer queryable="0" opaque="0" cascaded="0">
-          <Name>mosaic_MER_FRS_1P_reduced_RGB_bands</Name>
-          <Title>mosaic_MER_FRS_1P_reduced_RGB_bands</Title>
-          <Abstract>mosaic_MER_FRS_1P_reduced_RGB_bands</Abstract>
-          <EX_GeographicBoundingBox>
-            <westBoundLongitude>-3.43798</westBoundLongitude>
-            <eastBoundLongitude>27.9686</eastBoundLongitude>
-            <southBoundLatitude>32.2645</southBoundLatitude>
-            <northBoundLatitude>46.2184</northBoundLatitude>
-          </EX_GeographicBoundingBox>
-          <BoundingBox CRS="EPSG:4326" minx="32.2645" miny="-3.43798" maxx="46.2184" maxy="27.9686"/>
-          <Dimension name="time" units="ISO8601" nearestValue="0">2006-08-16T09:09:29Z/2006-08-16T09:12:46Z/PT1S,2006-08-22T09:20:58Z/2006-08-22T09:24:15Z/PT1S,2006-08-30T10:09:49Z/2006-08-30T10:13:06Z/PT1S</Dimension>
-        </Layer>
-        <Layer queryable="0" opaque="0" cascaded="0">
           <Name>mosaic_MER_FRS_1P_reduced_RGB</Name>
           <Title>mosaic_MER_FRS_1P_reduced_RGB</Title>
           <Abstract>mosaic_MER_FRS_1P_reduced_RGB</Abstract>
@@ -435,6 +383,19 @@ Copyright (C) European Space Agency - ESA</Abstract>
           <Dimension name="time" units="ISO8601" nearestValue="0">2006-08-16T09:09:29Z/2006-08-16T09:12:46Z/PT1S,2006-08-22T09:20:58Z/2006-08-22T09:24:15Z/PT1S,2006-08-30T10:09:49Z/2006-08-30T10:13:06Z/PT1S</Dimension>
         </Layer>
         <Layer queryable="0" opaque="0" cascaded="0">
+          <Name>mosaic_MER_FRS_1P_reduced_RGB_outlines</Name>
+          <Title>mosaic_MER_FRS_1P_reduced_RGB_outlines</Title>
+          <Abstract>mosaic_MER_FRS_1P_reduced_RGB_outlines</Abstract>
+          <EX_GeographicBoundingBox>
+            <westBoundLongitude>-3.43798</westBoundLongitude>
+            <eastBoundLongitude>27.9686</eastBoundLongitude>
+            <southBoundLatitude>32.2645</southBoundLatitude>
+            <northBoundLatitude>46.2184</northBoundLatitude>
+          </EX_GeographicBoundingBox>
+          <BoundingBox CRS="EPSG:4326" minx="32.2645" miny="-3.43798" maxx="46.2184" maxy="27.9686"/>
+          <Dimension name="time" units="ISO8601" nearestValue="0">2006-08-16T09:09:29Z/2006-08-16T09:12:46Z/PT1S,2006-08-22T09:20:58Z/2006-08-22T09:24:15Z/PT1S,2006-08-30T10:09:49Z/2006-08-30T10:13:06Z/PT1S</Dimension>
+        </Layer>
+        <Layer queryable="0" opaque="0" cascaded="0">
           <Name>mosaic_MER_FRS_1P_reduced_RGB_masked_outlines</Name>
           <Title>mosaic_MER_FRS_1P_reduced_RGB_masked_outlines</Title>
           <Abstract>mosaic_MER_FRS_1P_reduced_RGB_masked_outlines</Abstract>
@@ -448,9 +409,9 @@ Copyright (C) European Space Agency - ESA</Abstract>
           <Dimension name="time" units="ISO8601" nearestValue="0">2006-08-16T09:09:29Z/2006-08-16T09:12:46Z/PT1S,2006-08-22T09:20:58Z/2006-08-22T09:24:15Z/PT1S,2006-08-30T10:09:49Z/2006-08-30T10:13:06Z/PT1S</Dimension>
         </Layer>
         <Layer queryable="0" opaque="0" cascaded="0">
-          <Name>mosaic_MER_FRS_1P_reduced_RGB_outlines</Name>
-          <Title>mosaic_MER_FRS_1P_reduced_RGB_outlines</Title>
-          <Abstract>mosaic_MER_FRS_1P_reduced_RGB_outlines</Abstract>
+          <Name>mosaic_MER_FRS_1P_reduced_RGB_cloud</Name>
+          <Title>mosaic_MER_FRS_1P_reduced_RGB_cloud</Title>
+          <Abstract>mosaic_MER_FRS_1P_reduced_RGB_cloud</Abstract>
           <EX_GeographicBoundingBox>
             <westBoundLongitude>-3.43798</westBoundLongitude>
             <eastBoundLongitude>27.9686</eastBoundLongitude>

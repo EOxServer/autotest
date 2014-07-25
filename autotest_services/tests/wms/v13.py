@@ -226,13 +226,13 @@ class WMS13GetMapDatasetSeriesOutlinesTimeIntervalTestCase(wmsbase.WMS13GetMapTe
 
 class WMS13GetMapDatasetOneBandTestCase(wmsbase.WMS13GetMapTestCase):
     """ Test a GetMap request with a dataset containing 15 bands. """
-    layers = ("MER_FRS_1PNPDE20060822_092058_000001972050_00308_23408_0077_uint16_reduced_compressed_bands",)
+    layers = ("MER_FRS_1PNPDE20060822_092058_000001972050_00308_23408_0077_uint16_reduced_compressed",)
     bbox = (8.487755775451660, 32.195316643454134, 25.407486727461219, 46.249103546142578)
     dim_bands = "MERIS_radiance_01_uint16"
 
 class WMS13GetMapDatasetThreeBandsTestCase(wmsbase.WMS13GetMapTestCase):
     """ Test a GetMap request with a dataset containing 15 bands. """
-    layers = ("MER_FRS_1PNPDE20060822_092058_000001972050_00308_23408_0077_uint16_reduced_compressed_bands",)
+    layers = ("MER_FRS_1PNPDE20060822_092058_000001972050_00308_23408_0077_uint16_reduced_compressed",)
     bbox = (8.487755775451660, 32.195316643454134, 25.407486727461219, 46.249103546142578)
     dim_bands = "MERIS_radiance_02_uint16,MERIS_radiance_08_uint16,MERIS_radiance_12_uint16"
 
@@ -287,7 +287,7 @@ class WMS13GetMapDatasetCloudMaskTestCase(wmsbase.WMS13GetMapTestCase):
     """ Test a GetMap request for cloudmask of a dataset. """
     fixtures = MASK_FIXTURES
 
-    layers = ("mosaic_MER_FRS_1PNPDE20060816_090929_000001972050_00222_23322_0058_RGB_reduced_clouds",)
+    layers = ("mosaic_MER_FRS_1PNPDE20060816_090929_000001972050_00222_23322_0058_RGB_reduced_cloud",)
     styles = ("magenta",)
     bbox = (11, 32, 28, 46) 
 
@@ -295,7 +295,7 @@ class WMS13GetMapDatasetSeriesCloudMaskTestCase(wmsbase.WMS13GetMapTestCase):
     """ Test a GetMap request for cloudmask of a dataset series. """
     fixtures = MASK_FIXTURES
 
-    layers = ("MER_FRS_1P_reduced_RGB_clouds",)
+    layers = ("MER_FRS_1P_reduced_RGB_cloud",)
     styles = ("magenta",)
     bbox = (11, 32, 28, 46) 
 

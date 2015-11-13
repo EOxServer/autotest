@@ -80,7 +80,8 @@ class SynchronizeLocalTestCase(TestCase):
         )
 
     def test_synchronize_add(self):
-        synchronize(self.collection)
+        result = synchronize(self.collection)
+        self.assertEqual(result, (3, 0))
         coverages = models.Coverage.objects.filter(
             identifier__in=[
                 "mosaic_MER_FRS_1PNPDE20060816_090929_000001972050_00222_23322_0058_RGB_reduced",
@@ -119,7 +120,9 @@ class SynchronizeLocalTestCase(TestCase):
         )
         self.collection.insert(dataset)
 
-        synchronize(self.collection)
+        result = synchronize(self.collection)
+        self.assertEqual(result, (0, 1))
+
         with self.assertRaises(models.Coverage.DoesNotExist):
             models.Coverage.objects.get(
                 identifier="rectified-1"

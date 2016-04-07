@@ -85,15 +85,14 @@ class SearchMixIn(object):
     def setUp(self):
         client = Client()
 
-        request = self.request
-        if 'format' not in request:
-            request['format'] = self.format_name
-
         self.response = client.get(
-            reverse('opensearch:search',
-                kwargs={'collection_id': self.collection_id}
+            reverse('opensearch:collection:search',
+                kwargs={
+                    'collection_id': self.collection_id,
+                    'format_name': self.format_name
+                }
             ),
-            request
+            self.request
         )
 
     def tearDown(self):
